@@ -1,0 +1,46 @@
+﻿<Window x:Class="InventoryTracker.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryTracker"
+        mc:Ignorable="d"
+        Title="MenuWindow" Height="500" Width="350" Background="#121212" BorderThickness="3" BorderBrush="Black">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="64*"/>
+            <ColumnDefinition Width="273*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="35,35,34.6,35" Background="#595959" Grid.ColumnSpan="2">
+            <TextBlock FontWeight="Bold" FontSize="18" HorizontalAlignment="Center" Text="Add and Edit" Margin="0,0,0,10" Foreground="White"/>
+
+            <TextBlock HorizontalAlignment="Center" Text="Name" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="txtname" Margin="40,0,40,15" Text="{Binding Name}"/>
+
+            <TextBlock HorizontalAlignment="Center" Text="Available Quantity" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="txtavailbleQ" Margin="40,0,40,15" Text="{Binding AvailableQuantity}"/>
+
+            <TextBlock HorizontalAlignment="Center" Text="Minimum Quantity" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="txtminimumQ" Margin="40,0,40,15" Text="{Binding MinimumQuantity}"/>
+
+            <TextBlock HorizontalAlignment="Center" Text="Item Location (Optional)" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="txtLocation" Margin="40,0,40,15" Text="{Binding Location}"/>
+
+            <TextBlock HorizontalAlignment="Center" Text="Supplier" Foreground="White" FontWeight="Bold"/>
+            <ComboBox x:Name="cbSupplier" Margin="40,0,40,15" ItemsSource="{Binding Suppliers}">
+                <ComboBoxItem IsSelected="True" Content="Choose a Supplier"/>
+                <ComboBoxItem Content="ABC"/>
+                <ComboBoxItem Content="Costco"/>
+                <ComboBoxItem Content="Walmart"/>
+                <ComboBoxItem Content="Bulk Barn"/>
+                <ComboBoxItem Content="Other"/>
+            </ComboBox>
+
+            <TextBlock HorizontalAlignment="Center" Text="Category" Foreground="White" FontWeight="Bold"/>
+            <ComboBox x:Name="cbCategory" Margin="40,0,40,15">
+                <ComboBoxItem IsSelected="True" Content="Choose a Category"/>
+            </ComboBox>
+            <Button Content="SUBMIT" Click="button_click" Margin="65,20,65,0" Background="Black" Foreground="White" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>

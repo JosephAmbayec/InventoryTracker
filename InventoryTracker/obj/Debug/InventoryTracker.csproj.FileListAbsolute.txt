@@ -1,0 +1,17 @@
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.csprojAssemblyReference.cache
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\MainWindow.g.cs
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\App.g.cs
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker_MarkupCompile.cache
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker_MarkupCompile.lref
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\MenuWindow.g.cs
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\bin\Debug\InventoryTracker.exe.config
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\bin\Debug\InventoryTracker.exe
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\bin\Debug\InventoryTracker.pdb
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\MainWindow.baml
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\MenuWindow.baml
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.g.resources
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.Properties.Resources.resources
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.csproj.GenerateResource.cache
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.csproj.CoreCompileInputs.cache
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.exe
+C:\Users\natha\source\repos\Prog3FinalProject\InventoryTracker\InventoryTracker\obj\Debug\InventoryTracker.pdb

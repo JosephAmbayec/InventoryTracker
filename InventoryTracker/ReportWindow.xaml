@@ -1,0 +1,20 @@
+﻿<Window x:Class="InventoryTracker.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryTracker"
+        mc:Ignorable="d"
+        Title="ReportWindow" Height="450" Width="800">
+    <Grid Background="#FF121212">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="25" FontWeight="Bold" Grid.Row="0" HorizontalAlignment="Center" Margin="300,0,300,10" Foreground="#FFFFFF">General Report</TextBlock>
+        <TextBlock FontSize="18" FontWeight="DemiBold" Grid.Row="1" Margin="5, 0, 0, 0" Foreground="#FFFFFF">Items listed by category</TextBlock>
+        <TreeView Grid.Row="2" x:Name="trView" Background="#59595959"></TreeView>
+
+    </Grid>
+</Window>
