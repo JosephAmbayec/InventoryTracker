@@ -6,3 +6,6 @@ An inventory tracking app that let's stores keep track of products.
 Download the solution and build it!
 
 All inventory data is stored locally
+
+
+Created By Joseph Ambayec and Nathan Batten
